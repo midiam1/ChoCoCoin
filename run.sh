@@ -1,6 +1,14 @@
     # Proyectos Himmeros
-    # Scripts de  librerías necesarias para compilar ChocoCoin
+    # sistemas_que_funcionan_
+    # Versión 0.3
 
+    # Instalo git
+sudo apt -y install git
+
+    # Descargo Chococoin desde su repositorio y accedo al directorio
+git clone https://github.com/Chococoin/ChocoCoin && cd ChocoCoin
+
+    # Scripts de  librerías necesarias para compilar ChocoCoin
 sudo apt-get -y install build-essential libssl-dev libboost-all-dev
 
     # Resuelve un error con OpenSSL ya que necesita una versión vieja
